@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Horario">
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="SEGUDA 06/05"
+            android:layout_width="34pt"
+            android:layout_height="wrap_content"
+            android:layout_column="5"/>
+        <TextView
+            android:text="TERÇA 07/05"
+            android:layout_width="34pt"
+            android:layout_height="wrap_content"
+            android:layout_column="5"/>
+        <TextView
+            android:text="QUARTA 08/05"
+            android:layout_width="34pt"
+            android:layout_height="wrap_content"
+            android:layout_column="5"/>
+        <TextView
+            android:text="QUINTA 09/05"
+            android:layout_width="34pt"
+            android:layout_height="wrap_content"
+            android:layout_column="5"/>
+        <TextView
+            android:text="SEXTA 10/05"
+            android:layout_width="34pt"
+            android:layout_height="wrap_content"
+            android:layout_column="5"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="TCC I"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text="Gerencia Projeto"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:id="@+id/tv_sexta_01"
+            android:text="Engenharia II"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"
+            android:onClick="goSxt1"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="TCC I"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text="Gerencia Projeto"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text="Topico"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:id="@+id/tv_sexta_02"
+            android:text="Encenharia II"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="Engenharia II"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text="Gerencia Projeto"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text="Topico"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:id="@+id/tv_sexta_03"
+            android:text="Engenharia II"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="Gerencia Projeto"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:id="@+id/tv_sexta_04"
+            android:text="Topicos"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"
+            android:onClick="goSxt4"
+            android:background="@android:color/holo_red_light"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TextView
+            android:text="Gerecia Projeto"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:text=""
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"/>
+        <TextView
+            android:id="@+id/tv_sexta_05"
+            android:text="Topicos"
+            android:layout_width="34pt"
+            android:layout_height="20pt"
+            android:layout_column="5"
+            android:onClick="goSxt5"
+            android:background="@android:color/holo_red_light"/>
+
+    </TableRow>
+
+</TableLayout>
